@@ -382,6 +382,9 @@
   .fill-sky-500 {
     fill: var(--color-sky-500);
   }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
