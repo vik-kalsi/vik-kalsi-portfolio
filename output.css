@@ -198,6 +198,18 @@
   .absolute {
     position: absolute;
   }
+  .relative {
+    position: relative;
+  }
+  .right-0 {
+    right: calc(var(--spacing) * 0);
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
+  .left-5 {
+    left: calc(var(--spacing) * 5);
+  }
   .z-10 {
     z-index: 10;
   }
@@ -224,6 +236,9 @@
   }
   .mt-32 {
     margin-top: calc(var(--spacing) * 32);
+  }
+  .mt-38 {
+    margin-top: calc(var(--spacing) * 38);
   }
   .mt-46 {
     margin-top: calc(var(--spacing) * 46);
@@ -322,6 +337,10 @@
   .border-4 {
     border-style: var(--tw-border-style);
     border-width: 4px;
+  }
+  .border-8 {
+    border-style: var(--tw-border-style);
+    border-width: 8px;
   }
   .border-\[\#F96BFC\] {
     border-color: #F96BFC;
