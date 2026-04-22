@@ -241,6 +241,9 @@
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
+  .h-100 {
+    height: calc(var(--spacing) * 100);
+  }
   .h-\[400px\] {
     height: 400px;
   }
@@ -450,6 +453,11 @@
   .md\:h-24 {
     @media (width >= 48rem) {
       height: calc(var(--spacing) * 24);
+    }
+  }
+  .md\:h-175 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 175);
     }
   }
   .md\:h-\[700px\] {
